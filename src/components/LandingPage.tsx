@@ -11,7 +11,7 @@ export const LandingPage: React.FC<Props> = ({ onEnterDashboard }) => {
       <nav className="bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
-            <div className="flex items-center space-x-2 hover:scale-150">
+            <div className="flex items-center space-x-2">
               <LineChart className="h-8 w-8 text-indigo-600 " />
               <span className="text-xl font-bold text-gray-900">FinDash</span>
             </div>
